@@ -1,9 +1,12 @@
 import os
-import json
 import asyncio
 from crawl4ai import AsyncWebCrawler
 from crawl4ai.extraction_strategy import LLMExtractionStrategy
 from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 #Initialize OpenAI Client. Use environment variable for API key.
 client = OpenAI(api_key=OPENAI_API_KEY)
