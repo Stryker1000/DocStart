@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "DocStart"
+version = "0.2.0"
+dependencies = [
+    "asyncio","crawl4ai","openai","python-dotenv", "typer"
+]
+requires-python = ">= 3.8"
+[project.scripts]
+summarizefiledocs = "docstart.cli:summarizeDocFiles"
+summarizesitedocs = "docstart.cli:summarizeDocSite"
