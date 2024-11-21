@@ -3,7 +3,7 @@
 A small work in progress repository that can spit out a quickstart page when given the documentation of a library, language, or repository using AI. 
 
 ## Installation
-Because this package is still in very early beta it's not able to be downloaded directly from application installation tools. Currently the best way to install DocStart is by following the steps below:\
+Because this package is still in very early beta it's not able to be downloaded directly from application installation tools. Currently the best way to install DocStart is by following the steps below:
 1. Install Pipx, you can follow the instructions in [this](https://pipx.pypa.io/stable/installation/) link
 2. Download this repository and unzip it
 3. Navigate to the unzipped folder in the command prompt or terminal
